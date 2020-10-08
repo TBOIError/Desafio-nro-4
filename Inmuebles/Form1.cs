@@ -56,17 +56,17 @@ namespace Inmuebles
                             if (radiobtnventana1.Checked == true)
                             {
                                 ventanas = 1;
-                                MessageBox.Show("Precio Final: " + Negocio.CalcularPrecioLocal(precio, años, metroscuadrados, ventanas) + "\nDirección: " + txtDirec.Text + "\nMetros Cuadrados: " + txtMetros.Text + "\nNúmero de Piso: " + comboBoxPISO.SelectedItem + "\nAños de Antiguedad: " + comboBoxAÑOS.SelectedItem + "\nEstado: " + comboBoxUSADO.SelectedItem + "\nCantidad de ventanas: " + radiobtnventana1.Text, "CÁLCULO DE LOCAL");
+                                MessageBox.Show("Precio Final: $" + Negocio.CalcularPrecioLocal(precio, años, metroscuadrados, ventanas) + "\nDirección: " + txtDirec.Text + "\nMetros Cuadrados: " + txtMetros.Text + "\nNúmero de Piso: " + comboBoxPISO.SelectedItem + "\nAños de Antiguedad: " + comboBoxAÑOS.SelectedItem + "\nEstado: " + comboBoxUSADO.SelectedItem + "\nCantidad de ventanas: " + radiobtnventana1.Text, "CÁLCULO DE LOCAL");
                             }
                             if (radioButton2.Checked == true)
                             {
                                 ventanas = 3;
-                                MessageBox.Show("Precio Final: " + Negocio.CalcularPrecioLocal(precio, años, metroscuadrados, ventanas) + "\nDirección: " + txtDirec.Text + "\nMetros Cuadrados: " + txtMetros.Text + "\nNúmero de Piso: " + comboBoxPISO.SelectedItem + "\nAños de Antiguedad: " + comboBoxAÑOS.SelectedItem + "\nEstado: " + comboBoxUSADO.SelectedItem + "\nCantidad de ventanas: " + radioButton2.Text, "CÁLCULO DE LOCAL");
+                                MessageBox.Show("Precio Final: $" + Negocio.CalcularPrecioLocal(precio, años, metroscuadrados, ventanas) + "\nDirección: " + txtDirec.Text + "\nMetros Cuadrados: " + txtMetros.Text + "\nNúmero de Piso: " + comboBoxPISO.SelectedItem + "\nAños de Antiguedad: " + comboBoxAÑOS.SelectedItem + "\nEstado: " + comboBoxUSADO.SelectedItem + "\nCantidad de ventanas: " + radioButton2.Text, "CÁLCULO DE LOCAL");
                             }
                             if (radioButton3.Checked == true)
                             {
                                 ventanas = 5;
-                                MessageBox.Show("Precio Final: " + Negocio.CalcularPrecioLocal(precio, años, metroscuadrados, ventanas) + "\nDirección: " + txtDirec.Text + "\nMetros Cuadrados: " + txtMetros.Text + "\nNúmero de Piso: " + comboBoxPISO.SelectedItem + "\nAños de Antiguedad: " + comboBoxAÑOS.SelectedItem + "\nEstado: " + comboBoxUSADO.SelectedItem + "\nCantidad de ventanas: " +radioButton3.Text, "CÁLCULO DE LOCAL");
+                                MessageBox.Show("Precio Final: $" + Negocio.CalcularPrecioLocal(precio, años, metroscuadrados, ventanas) + "\nDirección: " + txtDirec.Text + "\nMetros Cuadrados: " + txtMetros.Text + "\nNúmero de Piso: " + comboBoxPISO.SelectedItem + "\nAños de Antiguedad: " + comboBoxAÑOS.SelectedItem + "\nEstado: " + comboBoxUSADO.SelectedItem + "\nCantidad de ventanas: " +radioButton3.Text, "CÁLCULO DE LOCAL");
                             }
 
                         }
@@ -113,17 +113,17 @@ namespace Inmuebles
                             if (radiobtnventana1.Checked == true)
                             {
                                 ventanas = 1;
-                                MessageBox.Show("Precio Final: " + Negocio.CalcularPrecioLocal(precio, años, metroscuadrados, ventanas) + "\nDirección: " + txtDirec.Text + "\nMetros Cuadrados: " + txtMetros.Text + "\nNúmero de Piso: " + comboBoxPISO.SelectedItem + "\nAños de Antiguedad: " + comboBoxAÑOS.SelectedItem + "\nEstado: " + comboBoxUSADO.SelectedItem + "\nCantidad de ventanas: " + radiobtnventana1.Text, "CÁLCULO DE PISO");
+                                MessageBox.Show("Precio Final: $" + Negocio.CalcularPrecioLocal(precio, años, metroscuadrados, ventanas) + "\nDirección: " + txtDirec.Text + "\nMetros Cuadrados: " + txtMetros.Text + "\nNúmero de Piso: " + comboBoxPISO.SelectedItem + "\nAños de Antiguedad: " + comboBoxAÑOS.SelectedItem + "\nEstado: " + comboBoxUSADO.SelectedItem + "\nCantidad de ventanas: " + radiobtnventana1.Text, "CÁLCULO DE PISO");
                             }
                             if (radioButton2.Checked == true)
                             {
                                 ventanas = 3;
-                                MessageBox.Show("Precio Final: " + Negocio.CalcularPrecioLocal(precio, años, metroscuadrados, ventanas) + "\nDirección: " + txtDirec.Text + "\nMetros Cuadrados: " + txtMetros.Text + "\nNúmero de Piso: " + comboBoxPISO.SelectedItem + "\nAños de Antiguedad: " + comboBoxAÑOS.SelectedItem + "\nEstado: " + comboBoxUSADO.SelectedItem + "\nCantidad de ventanas: " + radioButton2.Text, "CÁLCULO DE PISO");
+                                MessageBox.Show("Precio Final: $" + Negocio.CalcularPrecioLocal(precio, años, metroscuadrados, ventanas) + "\nDirección: " + txtDirec.Text + "\nMetros Cuadrados: " + txtMetros.Text + "\nNúmero de Piso: " + comboBoxPISO.SelectedItem + "\nAños de Antiguedad: " + comboBoxAÑOS.SelectedItem + "\nEstado: " + comboBoxUSADO.SelectedItem + "\nCantidad de ventanas: " + radioButton2.Text, "CÁLCULO DE PISO");
                             }
                             if (radioButton3.Checked == true)
                             {
                                 ventanas = 5;
-                                MessageBox.Show("Precio Final: " + Negocio.CalcularPrecioLocal(precio, años, metroscuadrados, ventanas) + "\nDirección: " + txtDirec.Text + "\nMetros Cuadrados: " + txtMetros.Text + "\nNúmero de Piso: " + comboBoxPISO.SelectedItem + "\nAños de Antiguedad: " + comboBoxAÑOS.SelectedItem + "\nEstado: " + comboBoxUSADO.SelectedItem + "\nCantidad de ventanas: " + radioButton3.Text, "CÁLCULO DE PISO");
+                                MessageBox.Show("Precio Final: $" + Negocio.CalcularPrecioLocal(precio, años, metroscuadrados, ventanas) + "\nDirección: " + txtDirec.Text + "\nMetros Cuadrados: " + txtMetros.Text + "\nNúmero de Piso: " + comboBoxPISO.SelectedItem + "\nAños de Antiguedad: " + comboBoxAÑOS.SelectedItem + "\nEstado: " + comboBoxUSADO.SelectedItem + "\nCantidad de ventanas: " + radioButton3.Text, "CÁLCULO DE PISO");
                             }
                         }
                         else 

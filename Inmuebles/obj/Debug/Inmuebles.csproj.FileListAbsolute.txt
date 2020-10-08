@@ -8,3 +8,13 @@ C:\Users\jose\source\repos\Inmuebles\bin\Debug\Inmuebles.pdb
 C:\Users\jose\source\repos\Inmuebles\obj\Debug\Inmuebles.exe
 C:\Users\jose\source\repos\Inmuebles\obj\Debug\Inmuebles.pdb
 C:\Users\jose\source\repos\Inmuebles\obj\Debug\Inmuebles.Inmobiliaria.resources
+C:\Users\jose\Desktop\Desafio-nro-4\Inmuebles\bin\Debug\Inmuebles.exe.config
+C:\Users\jose\Desktop\Desafio-nro-4\Inmuebles\bin\Debug\Inmuebles.exe
+C:\Users\jose\Desktop\Desafio-nro-4\Inmuebles\bin\Debug\Inmuebles.pdb
+C:\Users\jose\Desktop\Desafio-nro-4\Inmuebles\obj\Debug\Inmuebles.csprojAssemblyReference.cache
+C:\Users\jose\Desktop\Desafio-nro-4\Inmuebles\obj\Debug\Inmuebles.Inmobiliaria.resources
+C:\Users\jose\Desktop\Desafio-nro-4\Inmuebles\obj\Debug\Inmuebles.Properties.Resources.resources
+C:\Users\jose\Desktop\Desafio-nro-4\Inmuebles\obj\Debug\Inmuebles.csproj.GenerateResource.cache
+C:\Users\jose\Desktop\Desafio-nro-4\Inmuebles\obj\Debug\Inmuebles.csproj.CoreCompileInputs.cache
+C:\Users\jose\Desktop\Desafio-nro-4\Inmuebles\obj\Debug\Inmuebles.exe
+C:\Users\jose\Desktop\Desafio-nro-4\Inmuebles\obj\Debug\Inmuebles.pdb
