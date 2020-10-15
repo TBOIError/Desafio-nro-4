@@ -46,15 +46,18 @@
             this.comboBoxUSADO = new System.Windows.Forms.ComboBox();
             this.comboBoxAÑOS = new System.Windows.Forms.ComboBox();
             this.comboBoxPISO = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnPiso
             // 
-            this.btnPiso.Location = new System.Drawing.Point(53, 270);
+            this.btnPiso.Location = new System.Drawing.Point(649, 213);
             this.btnPiso.Name = "btnPiso";
             this.btnPiso.Size = new System.Drawing.Size(156, 31);
             this.btnPiso.TabIndex = 0;
-            this.btnPiso.Text = "Piso";
+            this.btnPiso.Text = "Calcular para Piso";
             this.btnPiso.UseVisualStyleBackColor = true;
             this.btnPiso.Click += new System.EventHandler(this.btnPiso_Click);
             // 
@@ -179,11 +182,11 @@
             // 
             // btnLocal
             // 
-            this.btnLocal.Location = new System.Drawing.Point(339, 270);
+            this.btnLocal.Location = new System.Drawing.Point(891, 213);
             this.btnLocal.Name = "btnLocal";
             this.btnLocal.Size = new System.Drawing.Size(185, 31);
             this.btnLocal.TabIndex = 32;
-            this.btnLocal.Text = "Local";
+            this.btnLocal.Text = "Calcular para Local";
             this.btnLocal.UseVisualStyleBackColor = true;
             this.btnLocal.Click += new System.EventHandler(this.btnLocal_Click);
             // 
@@ -204,9 +207,9 @@
             this.comboBoxAÑOS.Items.AddRange(new object[] {
             "Menos de 15 años",
             "15 años o más"});
-            this.comboBoxAÑOS.Location = new System.Drawing.Point(358, 34);
+            this.comboBoxAÑOS.Location = new System.Drawing.Point(324, 34);
             this.comboBoxAÑOS.Name = "comboBoxAÑOS";
-            this.comboBoxAÑOS.Size = new System.Drawing.Size(166, 21);
+            this.comboBoxAÑOS.Size = new System.Drawing.Size(200, 21);
             this.comboBoxAÑOS.TabIndex = 34;
             // 
             // comboBoxPISO
@@ -220,13 +223,43 @@
             this.comboBoxPISO.Size = new System.Drawing.Size(200, 21);
             this.comboBoxPISO.TabIndex = 35;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(639, 61);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(289, 13);
+            this.label3.TabIndex = 36;
+            this.label3.Text = "Para calcular Piso se tiene en cuenta el PISO DE ALTURA,";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(639, 98);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(454, 13);
+            this.label4.TabIndex = 37;
+            this.label4.Text = "Para calcular Local se tiene en cuenta METROS CUADRADOS y CANTIDAD DE VENTANAS";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(642, 131);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(376, 13);
+            this.label5.TabIndex = 38;
+            this.label5.Text = "Para calcular cualquier inmueble se tiene en cuenta AÑOS DE ANTIGUEDAD";
+            // 
             // Inmobiliaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(580, 325);
+            this.ClientSize = new System.Drawing.Size(1105, 273);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.comboBoxPISO);
             this.Controls.Add(this.comboBoxAÑOS);
             this.Controls.Add(this.comboBoxUSADO);
@@ -273,6 +306,9 @@
         private System.Windows.Forms.ComboBox comboBoxUSADO;
         private System.Windows.Forms.ComboBox comboBoxAÑOS;
         private System.Windows.Forms.ComboBox comboBoxPISO;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 

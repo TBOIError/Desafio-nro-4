@@ -8,21 +8,13 @@ namespace Inmuebles
 {
     class Piso : Inmueble
     {
-        public double CalcularPrecioPiso(double precio, int años, int nropiso)
-        {
-            double preciofinal = 0 ;
+        private int nropiso;
 
-            if (años <= 15)
-            {
-                preciofinal -= precio * 0.01;
-            }
-            else
-            {
-                if (años > 15)
-                {
-                    preciofinal -= precio * 0.02;
-                }
-            }
+        public int Nropiso { get => nropiso; set => nropiso = value; }
+
+        public double Calcular(double precio, int años, int nropiso, int metroscuadrados)
+        {
+            double preciofinal = base.Calcular(precio, años);
 
             if (nropiso >= 3)
             {

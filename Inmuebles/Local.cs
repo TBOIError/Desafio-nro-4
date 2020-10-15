@@ -6,23 +6,16 @@ using System.Threading.Tasks;
 
 namespace Inmuebles
 {
-    class Local
+    class Local : Inmueble
     {
-        public double CalcularPrecioLocal(double precio, int años, int metroscuadrados, int ventanas)
+
+        private int ventanas;
+
+        public int Ventanas { get => ventanas; set => ventanas = value; }
+
+        public double Calcular(double precio, int años, int metroscuadrados, int ventanas)
         {
-            double preciofinal=0;
-            
-            if (años < 15)
-            {
-                preciofinal -= precio * 0.01;
-            }
-            else
-            {
-                if (años >= 15)
-                {
-                    preciofinal -= precio * 0.02;
-                }
-            }
+            double preciofinal = base.Calcular(precio, años);
 
             if (metroscuadrados > 50)
             {
@@ -40,6 +33,7 @@ namespace Inmuebles
                     preciofinal += precio * 0.02;
                 }
             }
+
             preciofinal += precio;
 
             return preciofinal;
